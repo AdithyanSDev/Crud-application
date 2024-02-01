@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+        <header id="header">
+            <nav>
+                
+                <div class="container">
+                    
+                        
+
+                    <div class="text-center">
+                        <a href="/" class="nav-brand text-dark">User Management System</a>
+                        <form
+            action="/api/search"
+            method="GET"
+            class="flex items-center gap-4"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Search"
+              class="px-2 py-1 border rounded focus:outline-none focus:ring focus:border-blue-300"
+            />
+            <button
+              type="submit"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded text-black font-bold border-black hover:border-transparent hover:text-teal-500 hover:bg-white ml-2"
+            >
+              Search
+            </button>
+            </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <!-- /Header -->
